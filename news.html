@@ -6,14 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News App</title>
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="navbar">
+        <nav>
+            <a href='index.html'><img src="images/pngegg.png" alt=""></a>
+            <ul>
+                <li>
+                    <a href="index.html" class="media">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="services.html" class="media">
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a href="government.html" class="media">
+                        Government Schemes
+                    </a>
+                </li>
+                <li>
+                    <a href="news.html" class="media">
+                        News
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html" class="media">
+                        Contact us
+                    </a>
+                </li>
+            </ul>
+            <div class="search-bar flex">
+                <input id="search-text" type="text" class="news-input" placeholder="e.g. Science">
+                <button id="search-button" class="search-button">Search</button>
+            </div>
+            <div class="button">
+                <a href="tutorials.html"><button>Tutorials</button></a>
+            </div>
+            <div id="google_translate_element"></div>
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element');
+                }
+            </script>
+            <script type="text/javascript"
+                src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        </nav>
 
-    <nav>
+
+    <!-- <nav>
         <div class="main-nav container flex">
             <a href="#" onclick="reload()" class="company-logo">
-                <!-- <img src="./assets/logo.png" alt="company logo"> -->
-            </a>
+                 <img src="./assets/logo.png" alt="company logo"> -->
+            <!-- </a>
             <div class="nav-links">
                 <ul class="flex">
                     <li class="hover-link nav-item" id="ipl" onclick="onNavItemClick('ipl')">IPL</li>
@@ -26,8 +74,8 @@
                 <button id="search-button" class="search-button">Search</button>
             </div>
         </div>
-    </nav>
-    
+    </nav> -->
+     
 
     <main>
         <div class="cards-container container flex" id="cards-container">

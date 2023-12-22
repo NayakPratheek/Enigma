@@ -348,6 +348,7 @@ header img {
     object-fit: cover;
     border-radius: 8px;
 }
+
 .card-content {
     padding: 15px;
     background-color: rgb(125, 167, 202);
@@ -576,19 +577,12 @@ ul {
     margin-right: 20px;
     border-bottom: black solid 1px;
 }
-<<<<<<< HEAD
-.fraud-card{
-width: 10%;
-display: flex;
-/* flex-wrap: wrap; */
-=======
 
 
 .fraud-card {
     width: 10%;
     display: flex;
     /* flex-wrap: wrap; */
->>>>>>> d3d80ea86e8c0522c52de42cf234215836bd065a
 }
 
 .each-news img {
@@ -599,17 +593,11 @@ display: flex;
     width: 20%;
     border-radius: 20px;
 }
-<<<<<<< HEAD
-.fraud-card textContent{
-    width: 50%;
-}
-=======
 
 .fraud-card .textContent {
     width: 50%;
 }
 
->>>>>>> d3d80ea86e8c0522c52de42cf234215836bd065a
 /* government schemes page starts */
 .govern img {
     width: 100%;
@@ -1020,9 +1008,5 @@ nav ul li a:hover {
     color: darkblue;
     text-decoration: underline;
 }
-.video{
-    /* background-size: cover; */
-   
 
-}
 /* services ends */
