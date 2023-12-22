@@ -348,7 +348,6 @@ header img {
     object-fit: cover;
     border-radius: 8px;
 }
-
 .card-content {
     padding: 15px;
     background-color: rgb(125, 167, 202);
@@ -576,8 +575,6 @@ float: left;
 margin-right: 20px;
 border-bottom: black solid 1px;
 }
-
-
 .fraud-card{
 width: 10%;
 display: flex;
@@ -590,8 +587,9 @@ display: flex;
     width: 20%;
     border-radius: 20px;
 }
-.fraud-card .textContent{
+.fraud-card textContent{
     width: 50%;
+}
 /* government schemes page starts */
 .govern img {
     width: 100%;
@@ -739,5 +737,4 @@ df-messenger .chat-title {
     bottom: 30px;
     left: 30px;
     z-index: 99999;
->>>>>>> b9355670f4b915602fa0a3adc222227b14a68d60
 }
