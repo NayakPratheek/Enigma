@@ -755,7 +755,7 @@ df-messenger .chat-title {
 
 body {
     color: black;
-    background: rgba(40, 117, 158, 0.558);
+    background: rgba(253, 253, 253, 0.558);
     /* Black overlay with 50% opacity */
     /* url('https://www.thegef.org/sites/default/files/styles/banner_image/public/2021-11/topics_banner_blendedfinance.jpg?h=4e9a1ef8&itok=vO7vV59p') no-repeat center / cover; */
     height: 100vh;
@@ -792,6 +792,12 @@ h3 {
     color: black;
 }
 
+.connect_me h1 {
+    margin: 30px;
+    color: black;
+    text-align: center;
+}
+
 .connect {
     width: 80%;
     height: 60vh;
@@ -807,12 +813,14 @@ h3 {
     width: 340px;
     height: 300px;
     border-radius: 20px;
+    color: black;
     filter: drop-shadow(3px 3px 10px rgba(46, 44, 44, 0.847));
 }
 
 .connect_content .cont {
     margin: 20px;
     padding: 2px;
+    color: #000000;
 }
 
 .connect_message {
@@ -996,7 +1004,7 @@ nav ul li a:hover {
 }
 
 /* services starts */
-.deposit p{
+.deposit p {
     border-top: rgb(22, 19, 19) solid 1 px;
     border-bottom: rgb(3, 2, 2) solid 1 px;
     font-family: intern;
@@ -1007,9 +1015,3 @@ nav ul li a:hover {
     color: darkblue;
     text-decoration: underline;
 }
-.video{
-    /* background-size: cover; */
-   
-
-}
-/* services ends */
