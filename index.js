@@ -1,14 +1,14 @@
 // console("This is my news");
 //0fe0d38f46664935bf2ea9fc85749a3b//
 const newsParent = document.getElementById("fetched-news");
-async function getNews(){
+async function getNews() {
     const news = await fetch("https://newsapi.org/v2/top-headlines?country=in&apiKey=0fe0d38f46664935bf2ea9fc85749a3b");
     const jsonNEWS = await news.json();
-    Object.values(jsonNEWS.articles).forEach((newsInfo)=>{
+    Object.values(jsonNEWS.articles).forEach((newsInfo) => {
         const currentNews = document.createElement("div");
         currentNews.classList.add("each-news");
         const img = document.createElement("img");
-        img.src=newsInfo.urlToImage;
+        img.src = newsInfo.urlToImage;
         const div1 = document.createElement("div");
         div1.textContent = newsInfo.author;
         const div2 = document.createElement("div");
@@ -28,5 +28,9 @@ async function getNews(){
         console.log(newsInfo.title);
     })
     // console.log(jsonNEWS);
-} 
+}
 getNews()
+
+
+
+// -------------------------------------------------------------------------------
